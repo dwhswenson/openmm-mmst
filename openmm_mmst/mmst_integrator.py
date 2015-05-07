@@ -11,13 +11,12 @@ class MMSTIntegrator(CustomIntegrator):
     def __init__(self, stepSize, Hmatrix):
         pass
 
-class RungeKuttaMMSTIntegrator(MMSTIntegrator):
-
+class VerletMMSTIntegrator(MMSTIntegrator):
+    # Exists mainly for testing
     def step(self, nsteps):
         pass
 
-class VerletMMSTIntegrator(MMSTIntegrator):
-    # Exists mainly for testing
+class RungeKuttaMMSTIntegrator(MMSTIntegrator):
     def step(self, nsteps):
         pass
 
